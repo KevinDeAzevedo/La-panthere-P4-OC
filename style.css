@@ -151,7 +151,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: #004e95;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -334,10 +334,6 @@ a:hover {
     text-align: inherit;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
-    background: transparent;
-}
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
@@ -852,6 +848,11 @@ footer {
 
 .salmon {
     color: #F3976C;
+}
+
+button:focus-visible,
+a:focus-visible {
+    box-shadow: 0 0 0 2px white, 0 0 0 8px blue;    
 }
 
 
