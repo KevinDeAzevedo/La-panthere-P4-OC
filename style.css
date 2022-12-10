@@ -475,6 +475,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    padding: 18px;
 }
 
 .icon-lg {
@@ -848,6 +849,10 @@ footer {
 
 .salmon {
     color: #F3976C;
+}
+
+a {
+    display: inline-block;
 }
 
 button:focus-visible,
