@@ -879,7 +879,6 @@ a:focus-visible {
     box-shadow: 0 0 0 2px white, 0 0 0 8px blue;    
 }
 
-
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
