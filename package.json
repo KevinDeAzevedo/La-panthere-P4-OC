@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "minifycss": "minify style.css > style.min.css"
+    "minifycss": "minify ./style/style.css ./style/et-line.css > style.min.css",
+    "minifyjs": "minify ./js/formHandler.js ./js/jqBootstrapValidation.js> ./js/output/main.min.js"
   },
   "author": "",
   "license": "ISC",
