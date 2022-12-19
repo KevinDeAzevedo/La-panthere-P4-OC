@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "minifycss": "minify ./style/style.css ./style/et-line.css > style.min.css",
-    "minifyjs": "minify ./js/formHandler.js ./js/jqBootstrapValidation.js> ./js/output/main.min.js"
+    "minifyjs": "minify ./js/formHandler.js ./js/jqBootstrapValidation.js ./js/blocs.js ./js/jquery.touchSwipe.js > ./js/output/main.min.js"
   },
   "author": "",
   "license": "ISC",
